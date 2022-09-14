@@ -1,6 +1,6 @@
 require './lib/fizzbuzz'
 describe 'fizzbuzz' do
-  it 'returns "fizz" when passed 3' do
+  it 'returns "fizzz" when passed 3' do
     expect(fizzbuzz(3)).to eq 'fizz'
   end
   it 'returns "buzz" when passed 10' do
